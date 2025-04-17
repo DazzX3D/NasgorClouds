@@ -1,0 +1,39 @@
+/* Clearing */
+html, head, body, *
+{
+    margin: 0;
+    padding: 0;
+}
+
+/* Background */
+body 
+{
+    background-color: #454545;
+    font-family: sans-serif;
+}
+
+/* Main Code */
+.main-container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+/* Player */
+
+.cross
+{
+    width: 80%;
+    height: 80%;
+    background-color: red;
+}
+
+.circle
+{
+    width: 80%;
+    height: 80%;
+    background-color: blue;
+}
